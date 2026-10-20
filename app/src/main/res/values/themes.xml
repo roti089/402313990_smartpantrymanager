@@ -1,6 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme._402313990_smartpantrymanager" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Base application theme.
+         The app uses a fixed light colour palette (white cards, navy text), so it is
+         locked to the LIGHT Material 3 theme. With DayNight, phones in dark mode turned
+         the default text white on white input boxes, making typed text unreadable. -->
+    <style name="Base.Theme._402313990_smartpantrymanager" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>

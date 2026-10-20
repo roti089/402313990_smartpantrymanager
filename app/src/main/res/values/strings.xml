@@ -1,3 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">402313990_smartpantrymanager</string>
+    <string name="app_name">Smart Pantry Manager</string>
+    <string-array name="ingredient_units">
+        <item>Select unit</item><item>Pieces</item><item>kg</item><item>g</item><item>L</item><item>ml</item><item>Packets</item><item>Cans</item><item>Bottles</item>
+    </string-array>
+    <string-array name="ingredient_categories">
+        <item>Select category</item><item>Fruit and Vegetables</item><item>Dairy</item><item>Meat and Fish</item><item>Grains and Cereals</item><item>Canned Goods</item><item>Beverages</item><item>Other</item>
+    </string-array>
 </resources>
