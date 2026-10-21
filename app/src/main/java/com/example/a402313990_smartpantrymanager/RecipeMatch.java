@@ -19,7 +19,7 @@ import java.util.Map;
  *  - units variation (1 kg = 150 g, 1 l = 300 ml)
  *  - pieces vs. grams for common fruits/vegetables (GRAMS_PER_PIECE)
  */
-public final class RecipeMatcher {
+public final class RecipeMatch {
 
     /** Allows to have rounding errors while making comparisons among decimals. */
     private static final double TOLERANCE = 0.000001;
@@ -41,7 +41,7 @@ public final class RecipeMatcher {
         NAME_ALIASES.put("yogurt", "yoghurt");
     }
 
-    private RecipeMatcher() {
+    private RecipeMatch() {
     }
 
     /** Provides only those recipes that can be prepared with the current pantry. */
