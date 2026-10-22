@@ -21,6 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".IngredientEditorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RecipeSuggestionsActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".PantryPreferencesActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
