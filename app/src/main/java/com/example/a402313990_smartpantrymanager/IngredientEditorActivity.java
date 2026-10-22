@@ -264,10 +264,10 @@ public class IngredientEditorActivity extends AppCompatActivity {
 
     /** True if ANOTHER pantry entry already has this ingredient ignores case and plurals. */
     private boolean nameAlreadyInPantry(String name) {
-        String wanted = RecipeMatcher.normalize(name);
+        String wanted = RecipeMatch.normalize(name);
         for (PantryIngredient item : storage.getAllPantryIngredients()) {
             boolean isDifferentEntry = item.getId() != ingredientId;
-            if (isDifferentEntry && RecipeMatcher.normalize(item.getName()).equals(wanted)) {
+            if (isDifferentEntry && RecipeMatch.normalize(item.getName()).equals(wanted)) {
                 return true;
             }
         }
