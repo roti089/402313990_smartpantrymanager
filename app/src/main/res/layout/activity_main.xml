@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <!-- Header band, same style on every main screen -->
+
         <LinearLayout
             android:id="@+id/headerCard"
             android:layout_width="match_parent"
@@ -79,7 +79,6 @@
             app:menu="@menu/bottom_nav_menu" />
     </LinearLayout>
 
-    <!-- Main action: teal (orange/red are no longer used for normal actions) -->
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/fabAdd"
         android:layout_width="wrap_content"

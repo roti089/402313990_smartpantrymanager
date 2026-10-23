@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Header band, same style on every screen -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
                 android:layout_marginTop="7dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/pantry_input_background"
-                android:hint="e.g. 2"
+                android:hint="e.g. 10"
                 android:inputType="numberDecimal"
                 android:paddingHorizontal="14dp"
                 android:textColor="@color/pantry_navy"
@@ -124,7 +124,7 @@
                 android:textColor="@color/pantry_navy"
                 android:textStyle="bold" />
 
-            <!-- Secondary action: outlined, so Save is the only solid button -->
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnExpiryDate"
                 style="@style/Widget.Material3.Button.OutlinedButton"

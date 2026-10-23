@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         fabAdd.setOnClickListener(v ->
                 startActivity(new Intent(this, IngredientEditorActivity.class)));
 
-        // Shared navigation bar: Pantry is the current tab on this screen
+        // Shared navigation bar,pantry is the current tab on this screen
         BottomNavHelper.setup(this, bottomNav, R.id.nav_pantry);
     }
 

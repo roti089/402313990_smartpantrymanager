@@ -42,7 +42,7 @@ public final class BottomNavHelper {
 
             Intent intent = new Intent(activity, target);
             if (id == R.id.nav_pantry) {
-                //The pantry screen is the home screen; return to it instead of duplicating another one.
+                //The pantry screen is the home screen, return to it instead of duplicating another one.
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP);
             }
             activity.startActivity(intent);
